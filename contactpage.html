@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/fatema.css">
+	<title>Contact with Fatema</title>
+</head>
+<body>
+	<header class="bgColor">
+		<nav> <!--nav provide navigational section --> 
+			<div class="container">
+				<div class="row"> <!--row-->
+					<div class="col-md-4"> 
+	
+					</div>
+				
+					<div class="col-md-4"> 
+					<h1 style="color:Tomato;"><b>Fatema Akter </b></h1>
+						
+					</div>
+				 
+				
+					<div class="col-md-4">
+						<ul class="nav">
+							<li class="nav-item">
+								<a class="nav-link active" href="index.html">Home</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" href="contactpage.html">Contact</a>
+							</li>
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+	
+	<div class="spacer"></div>
+
+<h3 class="text-center">Please fill up all the fild and click submit to communicate with Fatema, or you can her or communicate through Linked in. see bellow for more information.</h3>
+
+<div class="container">
+  <form action="MAILTO:fakter1992@gmail.com" method="post" enctype="text/plain"><!--<form action="/action_page.php">-->
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+	  <option value="usa">Asia</option>
+	  <option value="usa">Africa</option>
+	  <option value="usa">Europe</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" onclick="alert('your messege is on its way.')" value="Submit">
+  </form>
+</div>
+
+ <footer>
+ <div class="container">
+	<div class="row">
+		
+		<div class="col-md-3">
+			<Img src="images/phone-call.png">
+			<h5>000 000 0000</h5>
+			
+			</div>
+			
+			<div class="col-md-3">
+			<Img src="images/envelope.png">
+			<h5><a href="mailto:fakter1992@gmail.com">Email</a></h5>
+			
+			</div>
+			
+			<div class="col-md-3">
+			<Img src="images/copyright.png">
+			<h5> <a href="https://www.linkedin.com/in/fatema-akter-714925a7/">LinkedIn</a></h5>
+			
+			</div>
+	
+	</div>
+ 
+ 
+ 
+ </footer>
+</body>
+</html>
